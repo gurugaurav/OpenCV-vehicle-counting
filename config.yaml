@@ -2,7 +2,7 @@ model:
   weights: yolov8m.pt       # yolov8n/s/m/l/x.pt  OR  path to custom .pt
   confidence: 0.25          # lower = catches more vehicles, higher = fewer false positives
   iou: 0.45
-  imgsz: 1280               # match video resolution; bigger = catches small/far vehicles
+  imgsz: 640                # 640 = fast on CPU; 1280 = better for small/far vehicles (needs GPU)
   classes: null             # null = auto-detect vehicle classes from model names
                             # override e.g. [2,3,5,7] for COCO or [0,1,2] for custom
 
