@@ -34,9 +34,6 @@ Accurate, real-time vehicle counting from **video files**, **RTSP / IP cameras**
 ...
 [done]  Total=183  Down=113  Up=70
 ```
-
-> Real-world demo on a highway feed: [![Highway 401](https://img.youtube.com/vi/XszBqvQ2XCg/0.jpg)](https://www.youtube.com/watch?v=XszBqvQ2XCg)
-
 ---
 
 ## Hardware Requirements
