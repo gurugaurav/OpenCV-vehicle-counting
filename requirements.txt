@@ -1,0 +1,5 @@
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+PyQt6>=6.6.0
+pyyaml>=6.0
+numpy>=1.26.0

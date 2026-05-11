@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Model weights
+*.pt
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Output / logs
+counts.csv
+images/
+*.jpg
+*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
