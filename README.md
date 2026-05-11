@@ -161,16 +161,3 @@ Any YOLOv8 `.pt` file works — point `weights:` at it. The pipeline auto-detect
         └── main_window.py    # QMainWindow — toolbar, layout, wiring
 ```
 
----
-
-## Comparison with the original C++ version
-
-| | Original (C++) | This version (Python) |
-|---|---|---|
-| Detection | Background subtraction (MOG2) | YOLOv8 neural network |
-| Tracking | Debounce timer per lane | ByteTrack persistent IDs |
-| Counting | 4 hardcoded lane zones | Any-angle line, exact geometry |
-| Classes | Any moving blob | Car / truck / bus / motorcycle |
-| Direction | None | Up / down |
-| GUI | OpenCV windows only | PyQt6 desktop app |
-| OpenCV version | 2.4 (legacy) | 4.x |
