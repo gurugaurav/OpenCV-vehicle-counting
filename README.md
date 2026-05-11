@@ -26,7 +26,7 @@ Accurate, real-time vehicle counting from **video files**, **RTSP / IP cameras**
 
 ## Demo
 
-[![Highway 401 demo](https://img.youtube.com/vi/XszBqvQ2XCg/0.jpg)](https://www.youtube.com/watch?v=XszBqvQ2XCg)
+![Vehicle counter demo — top-down road view with YOLOv8 bounding boxes, track IDs, and live count overlay](assets/demo.gif)
 
 ```
 [count] frame=365  id=39  cls=car    dir=down  total=6
@@ -34,6 +34,8 @@ Accurate, real-time vehicle counting from **video files**, **RTSP / IP cameras**
 ...
 [done]  Total=183  Down=113  Up=70
 ```
+
+> Real-world demo on a highway feed: [![Highway 401](https://img.youtube.com/vi/XszBqvQ2XCg/0.jpg)](https://www.youtube.com/watch?v=XszBqvQ2XCg)
 
 ---
 
